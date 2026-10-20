@@ -1,0 +1,1759 @@
+{"songs": [
+  {
+    "songName": "菊花台",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "千里之外",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "月亮之上",
+    "levelAuthorName": "凤凰传奇"
+  },
+  {
+    "songName": "死了都要爱",
+    "levelAuthorName": "信乐团"
+  },
+  {
+    "songName": "秋天不回来",
+    "levelAuthorName": "王强"
+  },
+  {
+    "songName": "离歌",
+    "levelAuthorName": "信乐团"
+  },
+  {
+    "songName": "不怕不怕",
+    "levelAuthorName": "郭美美"
+  },
+  {
+    "songName": "今天你要嫁给我",
+    "levelAuthorName": "陶喆/蔡依林"
+  },
+  {
+    "songName": "香水有毒",
+    "levelAuthorName": "胡杨林"
+  },
+  {
+    "songName": "黄金甲",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "隐形的翅膀",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "认真的雪",
+    "levelAuthorName": "薛之谦"
+  },
+  {
+    "songName": "求佛",
+    "levelAuthorName": "誓言"
+  },
+  {
+    "songName": "蝴蝶泉边",
+    "levelAuthorName": "黄雅莉"
+  },
+  {
+    "songName": "好姑娘",
+    "levelAuthorName": "李晓杰"
+  },
+  {
+    "songName": "听妈妈的话",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "我想更懂你",
+    "levelAuthorName": "潘玮柏/苏芮"
+  },
+  {
+    "songName": "真爱",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "爱",
+    "levelAuthorName": "谢霆锋/蔡卓妍"
+  },
+  {
+    "songName": "暖暖",
+    "levelAuthorName": "梁静茹"
+  },
+  {
+    "songName": "大城小爱",
+    "levelAuthorName": "王力宏"
+  },
+  {
+    "songName": "只对你有感觉",
+    "levelAuthorName": "飞轮海/hebe"
+  },
+  {
+    "songName": "北极星的眼泪",
+    "levelAuthorName": "张栋梁"
+  },
+  {
+    "songName": "爸爸妈妈",
+    "levelAuthorName": "王蓉"
+  },
+  {
+    "songName": "QQ爱",
+    "levelAuthorName": "s.w.in"
+  },
+  {
+    "songName": "将军令",
+    "levelAuthorName": "吴克群"
+  },
+  {
+    "songName": "一万个理由",
+    "levelAuthorName": "郑源"
+  },
+  {
+    "songName": "手放开",
+    "levelAuthorName": "李圣杰"
+  },
+  {
+    "songName": "西厢",
+    "levelAuthorName": "后弦"
+  },
+  {
+    "songName": "爱的最真",
+    "levelAuthorName": "铁石"
+  },
+  {
+    "songName": "为什么相爱的人不能在一起",
+    "levelAuthorName": "郑源"
+  },
+  {
+    "songName": "菠萝菠萝蜜",
+    "levelAuthorName": "谢娜"
+  },
+  {
+    "songName": "忘记\t36. 让泪化作相思雨",
+    "levelAuthorName": "南合文斗"
+  },
+  {
+    "songName": "爱我别走",
+    "levelAuthorName": "张震岳"
+  },
+  {
+    "songName": "独立",
+    "levelAuthorName": "蜜雪薇琪"
+  },
+  {
+    "songName": "难道爱一个人有错吗",
+    "levelAuthorName": "郑源"
+  },
+  {
+    "songName": "不得不爱",
+    "levelAuthorName": "潘玮柏"
+  },
+  {
+    "songName": "天路",
+    "levelAuthorName": "韩红"
+  },
+  {
+    "songName": "三国恋",
+    "levelAuthorName": "Tank"
+  },
+  {
+    "songName": "亲亲",
+    "levelAuthorName": "梁静茹"
+  },
+  {
+    "songName": "那一夜",
+    "levelAuthorName": "谢军"
+  },
+  {
+    "songName": "真的爱你",
+    "levelAuthorName": "beyond"
+  },
+  {
+    "songName": "爱我就别伤害我",
+    "levelAuthorName": "刘嘉亮"
+  },
+  {
+    "songName": "我要为你戒烟",
+    "levelAuthorName": "东来东往"
+  },
+  {
+    "songName": "退后",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "夜曲",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "完美世界",
+    "levelAuthorName": "水木年华"
+  },
+  {
+    "songName": "生日礼物",
+    "levelAuthorName": "江涛"
+  },
+  {
+    "songName": "过火",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "想起",
+    "levelAuthorName": "江美琪"
+  },
+  {
+    "songName": "寂寞沙洲冷",
+    "levelAuthorName": "周传雄"
+  },
+  {
+    "songName": "海阔天空\t56. 约定\t57. 为爱而生",
+    "levelAuthorName": "五月天"
+  },
+  {
+    "songName": "大海",
+    "levelAuthorName": "张雨生"
+  },
+  {
+    "songName": "有一种爱叫做放手",
+    "levelAuthorName": "阿木"
+  },
+  {
+    "songName": "曹操",
+    "levelAuthorName": "林俊杰"
+  },
+  {
+    "songName": "北京一夜",
+    "levelAuthorName": "陈升"
+  },
+  {
+    "songName": "对不起我爱你\t63. 表白",
+    "levelAuthorName": "萧亚轩"
+  },
+  {
+    "songName": "狼爱上羊",
+    "levelAuthorName": "汤潮"
+  },
+  {
+    "songName": "第一次爱的人",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "不值得",
+    "levelAuthorName": "梦飞船"
+  },
+  {
+    "songName": "飘雪\t68. 天涯\t69. 我会好好的",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "童话",
+    "levelAuthorName": "光良"
+  },
+  {
+    "songName": "单车恋人",
+    "levelAuthorName": "后弦"
+  },
+  {
+    "songName": "梦里花",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "笔记",
+    "levelAuthorName": "周笔畅"
+  },
+  {
+    "songName": "精舞门",
+    "levelAuthorName": "罗志祥"
+  },
+  {
+    "songName": "面具",
+    "levelAuthorName": "安七炫"
+  },
+  {
+    "songName": "断点",
+    "levelAuthorName": "张敬轩"
+  },
+  {
+    "songName": "希望",
+    "levelAuthorName": "陈慧琳"
+  },
+  {
+    "songName": "樱花草",
+    "levelAuthorName": "Sweety"
+  },
+  {
+    "songName": "九公主",
+    "levelAuthorName": "后弦"
+  },
+  {
+    "songName": "梦之浮桥",
+    "levelAuthorName": "尚雯婕"
+  },
+  {
+    "songName": "如果爱下去",
+    "levelAuthorName": "张靓颖"
+  },
+  {
+    "songName": "那么爱你为什么",
+    "levelAuthorName": "黄品源"
+  },
+  {
+    "songName": "简单爱",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "发如雪",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "吻别",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "曾经最美\t87. 太早",
+    "levelAuthorName": "刘允乐"
+  },
+  {
+    "songName": "富士山下",
+    "levelAuthorName": "陈奕迅"
+  },
+  {
+    "songName": "本草纲目",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "就是爱你",
+    "levelAuthorName": "陶喆"
+  },
+  {
+    "songName": "一眼万年",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "触电",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "水手",
+    "levelAuthorName": "郑智化"
+  },
+  {
+    "songName": "光辉岁月",
+    "levelAuthorName": "beyond"
+  },
+  {
+    "songName": "未来就是现在",
+    "levelAuthorName": "周笔畅"
+  },
+  {
+    "songName": "好心分手",
+    "levelAuthorName": "卢巧音"
+  },
+  {
+    "songName": "舞娘",
+    "levelAuthorName": "蔡依林"
+  },
+  {
+    "songName": "放开",
+    "levelAuthorName": "爱乐团"
+  },
+  {
+    "songName": "亲爱的你怎么不在我身边",
+    "levelAuthorName": "江美琪"
+  },
+  {
+    "songName": "路边的野花不要采",
+    "levelAuthorName": "邓丽君"
+  },
+  {
+    "songName": "后来",
+    "levelAuthorName": "刘若英"
+  },
+  {
+    "songName": "回来我的爱",
+    "levelAuthorName": "阳一"
+  },
+  {
+    "songName": "知足",
+    "levelAuthorName": "五月天"
+  },
+  {
+    "songName": "拯救",
+    "levelAuthorName": "孙楠"
+  },
+  {
+    "songName": "做你的男人",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "爱如空气",
+    "levelAuthorName": "孙俪"
+  },
+  {
+    "songName": "不想长大",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "披着羊皮的狼",
+    "levelAuthorName": "谭咏麟"
+  },
+  {
+    "songName": "醉清风",
+    "levelAuthorName": "弦子"
+  },
+  {
+    "songName": "借口",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "谁动了我的琴弦",
+    "levelAuthorName": "周笔畅"
+  },
+  {
+    "songName": "包袱",
+    "levelAuthorName": "胡彦斌"
+  },
+  {
+    "songName": "一生有你",
+    "levelAuthorName": "水木年华"
+  },
+  {
+    "songName": "放生",
+    "levelAuthorName": "范逸臣"
+  },
+  {
+    "songName": "突然的自我",
+    "levelAuthorName": "伍佰"
+  },
+  {
+    "songName": "男佣",
+    "levelAuthorName": "吴克群"
+  },
+  {
+    "songName": "第一次",
+    "levelAuthorName": "光良"
+  },
+  {
+    "songName": "爱很简单",
+    "levelAuthorName": "陶喆"
+  },
+  {
+    "songName": "大舌头",
+    "levelAuthorName": "吴克群"
+  },
+  {
+    "songName": "爱你",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "一个人哭",
+    "levelAuthorName": "郑源"
+  },
+  {
+    "songName": "七月七日晴",
+    "levelAuthorName": "许慧欣"
+  },
+  {
+    "songName": "不要再来伤害我",
+    "levelAuthorName": "张振宇"
+  },
+  {
+    "songName": "夜的第七章",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "你到底爱谁",
+    "levelAuthorName": "亮亮"
+  },
+  {
+    "songName": "珊瑚海",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "一剪梅",
+    "levelAuthorName": "张明敏"
+  },
+  {
+    "songName": "留什么给你",
+    "levelAuthorName": "孙楠"
+  },
+  {
+    "songName": "反转地球",
+    "levelAuthorName": "潘玮柏"
+  },
+  {
+    "songName": "寂寞在唱歌",
+    "levelAuthorName": "阿桑"
+  },
+  {
+    "songName": "千千阙歌",
+    "levelAuthorName": "陈慧娴"
+  },
+  {
+    "songName": "一直很安静",
+    "levelAuthorName": "阿桑"
+  },
+  {
+    "songName": "香飘飘",
+    "levelAuthorName": "香香"
+  },
+  {
+    "songName": "红颜",
+    "levelAuthorName": "胡彦斌"
+  },
+  {
+    "songName": "那年夏天",
+    "levelAuthorName": "许飞"
+  },
+  {
+    "songName": "白色恋人",
+    "levelAuthorName": "游鸿明"
+  },
+  {
+    "songName": "今天",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "桃花朵朵开",
+    "levelAuthorName": "阿牛"
+  },
+  {
+    "songName": "我很想爱他",
+    "levelAuthorName": "Twins"
+  },
+  {
+    "songName": "一千年以后",
+    "levelAuthorName": "林俊杰"
+  },
+  {
+    "songName": "挪威的森林",
+    "levelAuthorName": "伍佰"
+  },
+  {
+    "songName": "我们的爱",
+    "levelAuthorName": "F.I.R"
+  },
+  {
+    "songName": "飞舞",
+    "levelAuthorName": "王冰洋"
+  },
+  {
+    "songName": "独一无二",
+    "levelAuthorName": "郑秀文"
+  },
+  {
+    "songName": "练习",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "愿望",
+    "levelAuthorName": "胡彦斌"
+  },
+  {
+    "songName": "世界末日",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "东南西北风",
+    "levelAuthorName": "黄安"
+  },
+  {
+    "songName": "广岛之恋",
+    "levelAuthorName": "莫文蔚/张洪量"
+  },
+  {
+    "songName": "爱上你我很快乐",
+    "levelAuthorName": "水木年华"
+  },
+  {
+    "songName": "雨人",
+    "levelAuthorName": "周华健"
+  },
+  {
+    "songName": "我们能不能不分手",
+    "levelAuthorName": "花儿乐队"
+  },
+  {
+    "songName": "你一定要幸福",
+    "levelAuthorName": "何洁"
+  },
+  {
+    "songName": "江南",
+    "levelAuthorName": "林俊杰"
+  },
+  {
+    "songName": "原来爱情这么伤",
+    "levelAuthorName": "梁咏琪"
+  },
+  {
+    "songName": "你的样子",
+    "levelAuthorName": "罗大佑"
+  },
+  {
+    "songName": "念奴娇",
+    "levelAuthorName": "伊能静"
+  },
+  {
+    "songName": "香水百合",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "梁祝",
+    "levelAuthorName": "吴奇隆"
+  },
+  {
+    "songName": "千年泪",
+    "levelAuthorName": "Tank"
+  },
+  {
+    "songName": "吉祥三宝",
+    "levelAuthorName": "布仁巴雅尔"
+  },
+  {
+    "songName": "红日",
+    "levelAuthorName": "李克勤"
+  },
+  {
+    "songName": "两只蝴蝶",
+    "levelAuthorName": "庞龙"
+  },
+  {
+    "songName": "安静",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "假如",
+    "levelAuthorName": "金城武"
+  },
+  {
+    "songName": "睫毛弯弯",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "我对天空说",
+    "levelAuthorName": "潘玮柏"
+  },
+  {
+    "songName": "怎么办",
+    "levelAuthorName": "SHE"
+  },
+  {
+    "songName": "十年",
+    "levelAuthorName": "陈奕迅"
+  },
+  {
+    "songName": "为谁疯狂",
+    "levelAuthorName": "蓝狐"
+  },
+  {
+    "songName": "狐狸精",
+    "levelAuthorName": "罗志祥"
+  },
+  {
+    "songName": "倒带",
+    "levelAuthorName": "蔡依林"
+  },
+  {
+    "songName": "绽放",
+    "levelAuthorName": "戴娆"
+  },
+  {
+    "songName": "朋友别哭",
+    "levelAuthorName": "吕方"
+  },
+  {
+    "songName": "分飞",
+    "levelAuthorName": "徐怀钰"
+  },
+  {
+    "songName": "白色风车",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "死性不改",
+    "levelAuthorName": "Twins"
+  },
+  {
+    "songName": "遇见",
+    "levelAuthorName": "孙燕姿"
+  },
+  {
+    "songName": "彩虹的微笑",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "如果你不再爱我",
+    "levelAuthorName": "东来东往"
+  },
+  {
+    "songName": "逍遥叹",
+    "levelAuthorName": "胡歌"
+  },
+  {
+    "songName": "从开始到现在",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "痴心绝对",
+    "levelAuthorName": "李圣杰"
+  },
+  {
+    "songName": "诀别诗",
+    "levelAuthorName": "胡彦斌"
+  },
+  {
+    "songName": "霍元甲",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "春泥",
+    "levelAuthorName": "庾澄庆"
+  },
+  {
+    "songName": "黑色毛衣",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "开始懂了",
+    "levelAuthorName": "孙燕姿"
+  },
+  {
+    "songName": "东风破",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "我们都是好孩子",
+    "levelAuthorName": "王筝"
+  },
+  {
+    "songName": "黄种人",
+    "levelAuthorName": "谢霆锋"
+  },
+  {
+    "songName": "最熟悉的陌生人",
+    "levelAuthorName": "萧亚轩"
+  },
+  {
+    "songName": "最初的梦想",
+    "levelAuthorName": "范玮琪"
+  },
+  {
+    "songName": "独唱情歌",
+    "levelAuthorName": "Tank"
+  },
+  {
+    "songName": "麦霸",
+    "levelAuthorName": "花儿乐队"
+  },
+  {
+    "songName": "我有罪",
+    "levelAuthorName": "吴克群"
+  },
+  {
+    "songName": "千年之恋",
+    "levelAuthorName": "F.I.R"
+  },
+  {
+    "songName": "爱你一万年",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "眉飞色舞",
+    "levelAuthorName": "郑秀文"
+  },
+  {
+    "songName": "忘了怎么哭",
+    "levelAuthorName": "东来东往"
+  },
+  {
+    "songName": "我的果汁分你一半",
+    "levelAuthorName": "花儿乐队"
+  },
+  {
+    "songName": "最浪漫的事",
+    "levelAuthorName": "赵咏华"
+  },
+  {
+    "songName": "七里香",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "花田错",
+    "levelAuthorName": "王力宏"
+  },
+  {
+    "songName": "七天七世纪",
+    "levelAuthorName": "李天华"
+  },
+  {
+    "songName": "美丽的神话",
+    "levelAuthorName": "孙楠/韩红"
+  },
+  {
+    "songName": "爱我还是他",
+    "levelAuthorName": "陶喆"
+  },
+  {
+    "songName": "相思风雨中",
+    "levelAuthorName": "张学友/汤宝如"
+  },
+  {
+    "songName": "爱要怎么说出口",
+    "levelAuthorName": "赵传"
+  },
+  {
+    "songName": "折子戏",
+    "levelAuthorName": "黄阅"
+  },
+  {
+    "songName": "大哥",
+    "levelAuthorName": "柯受良"
+  },
+  {
+    "songName": "宁夏",
+    "levelAuthorName": "梁静茹"
+  },
+  {
+    "songName": "红豆",
+    "levelAuthorName": "王菲"
+  },
+  {
+    "songName": "如果的事",
+    "levelAuthorName": "范玮琪"
+  },
+  {
+    "songName": "美丽心情",
+    "levelAuthorName": "本多RuRu"
+  },
+  {
+    "songName": "我要抱着你",
+    "levelAuthorName": "庞龙"
+  },
+  {
+    "songName": "莫斯科没有眼泪",
+    "levelAuthorName": "Twins"
+  },
+  {
+    "songName": "爱海滔滔",
+    "levelAuthorName": "陈浩民"
+  },
+  {
+    "songName": "小乌龟",
+    "levelAuthorName": "张栋梁"
+  },
+  {
+    "songName": "恋爱达人",
+    "levelAuthorName": "罗志祥"
+  },
+  {
+    "songName": "灰姑娘",
+    "levelAuthorName": "郑钧"
+  },
+  {
+    "songName": "被风吹过的夏天",
+    "levelAuthorName": "林俊杰"
+  },
+  {
+    "songName": "恭喜发财",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "爱笑的眼睛",
+    "levelAuthorName": "徐若瑄"
+  },
+  {
+    "songName": "女人花",
+    "levelAuthorName": "梅艳芳"
+  },
+  {
+    "songName": "一千个伤心的理由",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "可惜不是你",
+    "levelAuthorName": "梁静茹"
+  },
+  {
+    "songName": "回家",
+    "levelAuthorName": "王杰"
+  },
+  {
+    "songName": "猪之歌",
+    "levelAuthorName": "香香"
+  },
+  {
+    "songName": "你是我的玫瑰花",
+    "levelAuthorName": "庞龙"
+  },
+  {
+    "songName": "我说我爱你",
+    "levelAuthorName": "亮亮"
+  },
+  {
+    "songName": "爱人",
+    "levelAuthorName": "王菲"
+  },
+  {
+    "songName": "记事本",
+    "levelAuthorName": "陈慧琳"
+  },
+  {
+    "songName": "昨日重现",
+    "levelAuthorName": "高胜美"
+  },
+  {
+    "songName": "回心转意",
+    "levelAuthorName": "黑龙"
+  },
+  {
+    "songName": "解脱",
+    "levelAuthorName": "张惠妹"
+  },
+  {
+    "songName": "紫藤花",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "不如跳舞",
+    "levelAuthorName": "陈慧琳"
+  },
+  {
+    "songName": "大约在冬季",
+    "levelAuthorName": "齐秦"
+  },
+  {
+    "songName": "对你有感觉",
+    "levelAuthorName": "江美琪/光良"
+  },
+  {
+    "songName": "那女孩对我说",
+    "levelAuthorName": "黄义达"
+  },
+  {
+    "songName": "说爱你",
+    "levelAuthorName": "蔡依林"
+  },
+  {
+    "songName": "枫",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "太委屈",
+    "levelAuthorName": "陶晶莹"
+  },
+  {
+    "songName": "愤怒的情人",
+    "levelAuthorName": "汤潮"
+  },
+  {
+    "songName": "玻璃杯",
+    "levelAuthorName": "曹慧娟"
+  },
+  {
+    "songName": "我只在乎你",
+    "levelAuthorName": "邓丽君"
+  },
+  {
+    "songName": "六月的雨",
+    "levelAuthorName": "胡歌"
+  },
+  {
+    "songName": "无赖",
+    "levelAuthorName": "郑中基"
+  },
+  {
+    "songName": "轨迹",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "别怕我伤心",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "喜欢你没道理",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "哎呀",
+    "levelAuthorName": "王蓉"
+  },
+  {
+    "songName": "祝你一路顺风",
+    "levelAuthorName": "吴奇隆"
+  },
+  {
+    "songName": "爱如潮水",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "爱情复兴",
+    "levelAuthorName": "容祖儿"
+  },
+  {
+    "songName": "都怪我",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "大喜宙",
+    "levelAuthorName": "花儿乐队"
+  },
+  {
+    "songName": "谢谢你的爱",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "月光",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "我恨我痴心",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "算你狠",
+    "levelAuthorName": "陈小春"
+  },
+  {
+    "songName": "精忠报国",
+    "levelAuthorName": "屠洪刚"
+  },
+  {
+    "songName": "那些花儿",
+    "levelAuthorName": "朴树"
+  },
+  {
+    "songName": "唯一",
+    "levelAuthorName": "王力宏"
+  },
+  {
+    "songName": "白月光",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "一生爱你千百回",
+    "levelAuthorName": "梅艳芳"
+  },
+  {
+    "songName": "快乐崇拜",
+    "levelAuthorName": "潘玮柏"
+  },
+  {
+    "songName": "丁香花",
+    "levelAuthorName": "唐磊"
+  },
+  {
+    "songName": "别说我的眼泪你无所谓",
+    "levelAuthorName": "东来东往"
+  },
+  {
+    "songName": "我可以抱你吗",
+    "levelAuthorName": "张惠妹"
+  },
+  {
+    "songName": "雪人",
+    "levelAuthorName": "范晓萱"
+  },
+  {
+    "songName": "你怎么舍得我难过",
+    "levelAuthorName": "黄品源"
+  },
+  {
+    "songName": "静静的",
+    "levelAuthorName": "庾澄庆"
+  },
+  {
+    "songName": "祈祷\t303. 我是真的爱你",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "天下无双",
+    "levelAuthorName": "张靓颖"
+  },
+  {
+    "songName": "分开旅行",
+    "levelAuthorName": "刘若英"
+  },
+  {
+    "songName": "嘻唰唰",
+    "levelAuthorName": "花儿乐队"
+  },
+  {
+    "songName": "明天会更好",
+    "levelAuthorName": "群星"
+  },
+  {
+    "songName": "灰色空间",
+    "levelAuthorName": "罗志祥"
+  },
+  {
+    "songName": "听海",
+    "levelAuthorName": "张惠妹"
+  },
+  {
+    "songName": "无可救药",
+    "levelAuthorName": "品冠"
+  },
+  {
+    "songName": "假装",
+    "levelAuthorName": "蔡依林"
+  },
+  {
+    "songName": "当爱在靠近",
+    "levelAuthorName": "刘若英"
+  },
+  {
+    "songName": "不痛",
+    "levelAuthorName": "周笔畅"
+  },
+  {
+    "songName": "原谅",
+    "levelAuthorName": "张玉华"
+  },
+  {
+    "songName": "搁浅",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "昆明湖",
+    "levelAuthorName": "后弦"
+  },
+  {
+    "songName": "奔跑",
+    "levelAuthorName": "羽泉"
+  },
+  {
+    "songName": "倩女幽魂",
+    "levelAuthorName": "张国荣"
+  },
+  {
+    "songName": "天亮了",
+    "levelAuthorName": "韩红"
+  },
+  {
+    "songName": "当你孤单你会想起谁",
+    "levelAuthorName": "张栋梁"
+  },
+  {
+    "songName": "小薇",
+    "levelAuthorName": "黄品源"
+  },
+  {
+    "songName": "遗失的美好",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "冲动的惩罚",
+    "levelAuthorName": "刀郎"
+  },
+  {
+    "songName": "黄色枫叶",
+    "levelAuthorName": "薛之谦"
+  },
+  {
+    "songName": "古灵精怪",
+    "levelAuthorName": "艾伦/静如"
+  },
+  {
+    "songName": "离别",
+    "levelAuthorName": "阿杜"
+  },
+  {
+    "songName": "个人秘密",
+    "levelAuthorName": "张靓颖"
+  },
+  {
+    "songName": "宝贝对不起",
+    "levelAuthorName": "草蜢"
+  },
+  {
+    "songName": "爱情木瓜",
+    "levelAuthorName": "1983组合"
+  },
+  {
+    "songName": "吹眼睛",
+    "levelAuthorName": "庞龙"
+  },
+  {
+    "songName": "别了疯子",
+    "levelAuthorName": "王杰"
+  },
+  {
+    "songName": "一千遍我爱你",
+    "levelAuthorName": "伊能静"
+  },
+  {
+    "songName": "独角戏",
+    "levelAuthorName": "许茹芸"
+  },
+  {
+    "songName": "零",
+    "levelAuthorName": "柯有伦"
+  },
+  {
+    "songName": "祝我生日快乐",
+    "levelAuthorName": "温岚"
+  },
+  {
+    "songName": "暗恋情书",
+    "levelAuthorName": "B.i.Z"
+  },
+  {
+    "songName": "天意",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "不死之身",
+    "levelAuthorName": "林俊杰"
+  },
+  {
+    "songName": "如果这都不算爱",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "倔强",
+    "levelAuthorName": "五月天"
+  },
+  {
+    "songName": "天空",
+    "levelAuthorName": "王菲"
+  },
+  {
+    "songName": "爱得太迟",
+    "levelAuthorName": "古巨基/周慧敏"
+  },
+  {
+    "songName": "男人海洋",
+    "levelAuthorName": "周传雄"
+  },
+  {
+    "songName": "给不了的幸福",
+    "levelAuthorName": "谢娜"
+  },
+  {
+    "songName": "童年",
+    "levelAuthorName": "罗大佑"
+  },
+  {
+    "songName": "铁血丹心",
+    "levelAuthorName": "罗文/甄妮"
+  },
+  {
+    "songName": "号码",
+    "levelAuthorName": "周笔畅"
+  },
+  {
+    "songName": "信仰",
+    "levelAuthorName": "张信哲"
+  },
+  {
+    "songName": "单身情歌",
+    "levelAuthorName": "林志炫"
+  },
+  {
+    "songName": "温柔的慈悲",
+    "levelAuthorName": "阿桑"
+  },
+  {
+    "songName": "婴儿",
+    "levelAuthorName": "陈倩倩"
+  },
+  {
+    "songName": "讲不出再见",
+    "levelAuthorName": "谭咏麟"
+  },
+  {
+    "songName": "孤单北半球",
+    "levelAuthorName": "欧得洋"
+  },
+  {
+    "songName": "脱掉",
+    "levelAuthorName": "杜德伟"
+  },
+  {
+    "songName": "老鼠爱大米",
+    "levelAuthorName": "杨臣刚"
+  },
+  {
+    "songName": "下一站天后",
+    "levelAuthorName": "Twins"
+  },
+  {
+    "songName": "寓言",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "小丑鱼",
+    "levelAuthorName": "罗志祥"
+  },
+  {
+    "songName": "一起走过的日子",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "蓝莲花",
+    "levelAuthorName": "许巍"
+  },
+  {
+    "songName": "绿光",
+    "levelAuthorName": "孙燕姿"
+  },
+  {
+    "songName": "偏偏喜欢你",
+    "levelAuthorName": "陈百强"
+  },
+  {
+    "songName": "哪一站",
+    "levelAuthorName": "羽泉"
+  },
+  {
+    "songName": "开不了口",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "吹喇叭",
+    "levelAuthorName": "罗百吉"
+  },
+  {
+    "songName": "情书",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "曾经的你",
+    "levelAuthorName": "许巍"
+  },
+  {
+    "songName": "玫瑰唇彩",
+    "levelAuthorName": "沙宝亮"
+  },
+  {
+    "songName": "分手快乐",
+    "levelAuthorName": "梁静茹"
+  },
+  {
+    "songName": "期待",
+    "levelAuthorName": "张敬轩"
+  },
+  {
+    "songName": "喜欢你",
+    "levelAuthorName": "beyond"
+  },
+  {
+    "songName": "梁山伯与茱丽叶",
+    "levelAuthorName": "卓文萱/曹格"
+  },
+  {
+    "songName": "大地",
+    "levelAuthorName": "beyond"
+  },
+  {
+    "songName": "世界第一等",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "高手",
+    "levelAuthorName": "潘玮柏"
+  },
+  {
+    "songName": "很爱很爱你",
+    "levelAuthorName": "刘若英"
+  },
+  {
+    "songName": "容易受伤的女人",
+    "levelAuthorName": "王菲"
+  },
+  {
+    "songName": "星座",
+    "levelAuthorName": "王力宏"
+  },
+  {
+    "songName": "亲爱的不要离开我",
+    "levelAuthorName": "亮亮"
+  },
+  {
+    "songName": "星光",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "回到过去",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "只要有你",
+    "levelAuthorName": "孙楠"
+  },
+  {
+    "songName": "下沙",
+    "levelAuthorName": "游鸿明"
+  },
+  {
+    "songName": "专属天使",
+    "levelAuthorName": "TANK"
+  },
+  {
+    "songName": "从头再来",
+    "levelAuthorName": "刘欢"
+  },
+  {
+    "songName": "七夕",
+    "levelAuthorName": "SE7EN"
+  },
+  {
+    "songName": "杀破狼",
+    "levelAuthorName": "JS"
+  },
+  {
+    "songName": "可不可以爱你",
+    "levelAuthorName": "BiZ乐团/俞思远"
+  },
+  {
+    "songName": "猪都笑了",
+    "levelAuthorName": "单行道"
+  },
+  {
+    "songName": "给我你的爱",
+    "levelAuthorName": "Tank"
+  },
+  {
+    "songName": "一路向北",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "风雨无阻",
+    "levelAuthorName": "周华健"
+  },
+  {
+    "songName": "祝福",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "唯舞独尊",
+    "levelAuthorName": "蔡依林"
+  },
+  {
+    "songName": "听说爱情回来过",
+    "levelAuthorName": "林忆莲"
+  },
+  {
+    "songName": "黄昏晓",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "胆小鬼",
+    "levelAuthorName": "梁咏琪"
+  },
+  {
+    "songName": "在他乡",
+    "levelAuthorName": "水木年华"
+  },
+  {
+    "songName": "手记",
+    "levelAuthorName": "Rain"
+  },
+  {
+    "songName": "双鱼座",
+    "levelAuthorName": "郑中基"
+  },
+  {
+    "songName": "小手拉大手",
+    "levelAuthorName": "梁静茹"
+  },
+  {
+    "songName": "后来的我们",
+    "levelAuthorName": "品冠"
+  },
+  {
+    "songName": "欧若拉",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "知心爱人",
+    "levelAuthorName": "付笛生/任静"
+  },
+  {
+    "songName": "比我幸福",
+    "levelAuthorName": "陈晓东"
+  },
+  {
+    "songName": "我的心太乱",
+    "levelAuthorName": "周传雄"
+  },
+  {
+    "songName": "花香",
+    "levelAuthorName": "许绍洋"
+  },
+  {
+    "songName": "命中注定",
+    "levelAuthorName": "庾澄庆"
+  },
+  {
+    "songName": "如果没有你",
+    "levelAuthorName": "莫文蔚"
+  },
+  {
+    "songName": "你那么爱她",
+    "levelAuthorName": "李圣杰/林隆璇"
+  },
+  {
+    "songName": "护花使者",
+    "levelAuthorName": "李克勤"
+  },
+  {
+    "songName": "受了点伤",
+    "levelAuthorName": "阿桑"
+  },
+  {
+    "songName": "芙蓉姐夫",
+    "levelAuthorName": "王蓉"
+  },
+  {
+    "songName": "羽毛",
+    "levelAuthorName": "王心凌"
+  },
+  {
+    "songName": "电台情歌",
+    "levelAuthorName": "莫文蔚"
+  },
+  {
+    "songName": "冬天快乐",
+    "levelAuthorName": "李宇春"
+  },
+  {
+    "songName": "一路上有你",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "高原红",
+    "levelAuthorName": "容中尔甲"
+  },
+  {
+    "songName": "诗人的眼泪",
+    "levelAuthorName": "游鸿明"
+  },
+  {
+    "songName": "来生缘",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "你好毒",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "黑蝙蝠中队",
+    "levelAuthorName": "刘德华"
+  },
+  {
+    "songName": "心醉",
+    "levelAuthorName": "希亚"
+  },
+  {
+    "songName": "爱你不是两三天",
+    "levelAuthorName": "梁静茹"
+  },
+  {
+    "songName": "爱我你怕了吗",
+    "levelAuthorName": "姜育恒"
+  },
+  {
+    "songName": "万物生",
+    "levelAuthorName": "萨顶顶"
+  },
+  {
+    "songName": "我爱的人",
+    "levelAuthorName": "艳乐队"
+  },
+  {
+    "songName": "无神论",
+    "levelAuthorName": "黄立行"
+  },
+  {
+    "songName": "女人的选择",
+    "levelAuthorName": "姜育恒"
+  },
+  {
+    "songName": "原来",
+    "levelAuthorName": "林俊杰"
+  },
+  {
+    "songName": "好久不见",
+    "levelAuthorName": "5566"
+  },
+  {
+    "songName": "给自己的情歌",
+    "levelAuthorName": "梁咏琪"
+  },
+  {
+    "songName": "曾经爱过你",
+    "levelAuthorName": "郑源"
+  },
+  {
+    "songName": "双截棍",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "太美丽",
+    "levelAuthorName": "陶喆"
+  },
+  {
+    "songName": "原来你也在这里",
+    "levelAuthorName": "刘若英"
+  },
+  {
+    "songName": "如果我没有爱过",
+    "levelAuthorName": "谭维维"
+  },
+  {
+    "songName": "心要让你听见",
+    "levelAuthorName": "邰正宵"
+  },
+  {
+    "songName": "哑巴新娘",
+    "levelAuthorName": "李羿慧"
+  },
+  {
+    "songName": "皇后与梦想",
+    "levelAuthorName": "李宇春"
+  },
+  {
+    "songName": "千纸鹤",
+    "levelAuthorName": "邰正宵"
+  },
+  {
+    "songName": "女人心",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "功夫",
+    "levelAuthorName": "张娜拉"
+  },
+  {
+    "songName": "说爱我",
+    "levelAuthorName": "梁一贞"
+  },
+  {
+    "songName": "牡丹江",
+    "levelAuthorName": "南拳妈妈"
+  },
+  {
+    "songName": "星晴",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "不顾一切爱你",
+    "levelAuthorName": "易欣"
+  },
+  {
+    "songName": "就是我",
+    "levelAuthorName": "林俊杰"
+  },
+  {
+    "songName": "如果爱",
+    "levelAuthorName": "张学友"
+  },
+  {
+    "songName": "果汁分你一半",
+    "levelAuthorName": "花儿乐队"
+  },
+  {
+    "songName": "断了的弦",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "朋友难当",
+    "levelAuthorName": "羽泉"
+  },
+  {
+    "songName": "珍惜",
+    "levelAuthorName": "苏有朋"
+  },
+  {
+    "songName": "阳光总在风雨后",
+    "levelAuthorName": "许美静"
+  },
+  {
+    "songName": "有你陪着我",
+    "levelAuthorName": "安又琪"
+  },
+  {
+    "songName": "好男人",
+    "levelAuthorName": "张镐哲"
+  },
+  {
+    "songName": "来电",
+    "levelAuthorName": "潘玮柏"
+  },
+  {
+    "songName": "爱的主打歌",
+    "levelAuthorName": "萧亚轩"
+  },
+  {
+    "songName": "值得",
+    "levelAuthorName": "郑秀文"
+  },
+  {
+    "songName": "甜蜜蜜",
+    "levelAuthorName": "邓丽君"
+  },
+  {
+    "songName": "心中的日月",
+    "levelAuthorName": "王力宏"
+  },
+  {
+    "songName": "挥着翅膀的女孩",
+    "levelAuthorName": "容祖儿"
+  },
+  {
+    "songName": "只欠秋天",
+    "levelAuthorName": "马天宇"
+  },
+  {
+    "songName": "我们怎么了",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "再回首",
+    "levelAuthorName": "姜育恒"
+  },
+  {
+    "songName": "为爱痴狂",
+    "levelAuthorName": "刘若英"
+  },
+  {
+    "songName": "夏雪",
+    "levelAuthorName": "飞轮海"
+  },
+  {
+    "songName": "爱一个人好难",
+    "levelAuthorName": "苏永康"
+  },
+  {
+    "songName": "蜗牛",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "天灰",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "都是你",
+    "levelAuthorName": "光良"
+  },
+  {
+    "songName": "其实很爱你",
+    "levelAuthorName": "张韶涵"
+  },
+  {
+    "songName": "他还是不懂",
+    "levelAuthorName": "S.H.E"
+  },
+  {
+    "songName": "爱的就是你",
+    "levelAuthorName": "王力宏"
+  },
+  {
+    "songName": "爱在西元前",
+    "levelAuthorName": "周杰伦"
+  },
+  {
+    "songName": "暗号",
+    "levelAuthorName": "周杰伦"
+  }
+]
+}

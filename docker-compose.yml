@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_API_URL=http://backend:3001
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ${SUNO_DIR:-./suno}/data:/app/data
+      - ${SUNO_DIR:-./suno}/input:/app/input
+      - ${SUNO_DIR:-./suno}/seed:/app/seed
+      - ${SUNO_DIR:-./suno}/output:/app/output
+      - ${SUNO_DIR:-./suno}/outputprocessed:/app/outputprocessed
+      - ${SUNO_DIR:-./suno}/processed:/app/processed
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped 

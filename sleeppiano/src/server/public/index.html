@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SleepPiano Pipeline</title>
+<style>
+  :root {
+    --bg: #10131a; --panel: #171b25; --line: #262c3a;
+    --text: #e6e9f0; --muted: #8b93a7; --accent: #7c5cff;
+    --ok: #3ecf8e; --warn: #e3b341; --err: #f2545b;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 32px 20px 60px; }
+  header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 24px; }
+  h1 { font-size: 24px; margin: 0; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 18px; }
+  button#run {
+    background: var(--accent); color: #fff; border: 0; border-radius: 10px;
+    padding: 14px 22px; font-size: 15px; font-weight: 600; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 10px;
+  }
+  button#run:disabled { opacity: 0.55; cursor: not-allowed; }
+  button#reset {
+    background: transparent; color: var(--err); border: 1px solid rgba(242,84,91,.45);
+    border-radius: 10px; padding: 14px 18px; font-size: 14px; font-weight: 600;
+    cursor: pointer; margin-left: 10px;
+  }
+  button#reset:hover:not(:disabled) { background: rgba(242,84,91,.12); }
+  button#reset:disabled { opacity: 0.4; cursor: not-allowed; }
+  .spinner { width: 15px; height: 15px; border: 2px solid rgba(255,255,255,.35); border-top-color: #fff; border-radius: 50%; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #notice { margin-left: 14px; font-size: 13px; color: var(--warn); }
+  .progress { display: flex; flex-wrap: wrap; gap: 26px; margin-top: 18px; font-size: 13px; }
+  .progress div span { display: block; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 3px; }
+  .progress div b { font-size: 17px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .bar { height: 6px; background: #222839; border-radius: 3px; overflow: hidden; margin-top: 14px; }
+  .bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .4s ease; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
+  #log { height: 380px; overflow-y: auto; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; line-height: 1.65; background: #0c0f16; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; white-space: pre-wrap; word-break: break-word; }
+  #log .info { color: #c8cede; } #log .warn { color: var(--warn); } #log .error { color: var(--err); }
+  #log .ts { color: #4d5470; }
+  #log .step { color: var(--accent); }
+  dl { display: grid; grid-template-columns: 150px 1fr; gap: 8px 16px; margin: 0; font-size: 13px; }
+  dt { color: var(--muted); } dd { margin: 0; }
+  .pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 600; letter-spacing: .04em; }
+  .pill.RUNNING { background: rgba(124,92,255,.18); color: #b3a1ff; }
+  .pill.SUCCESS { background: rgba(62,207,142,.15); color: var(--ok); }
+  .pill.PARTIAL { background: rgba(227,179,65,.15); color: var(--warn); }
+  .pill.FAILED  { background: rgba(242,84,91,.15); color: var(--err); }
+  a { color: #9d86ff; }
+  .counts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .counts span { background: #0c0f16; border: 1px solid var(--line); border-radius: 6px; padding: 3px 9px; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>SleepPiano Pipeline</h1>
+    <span class="sub">SQLite → OpenAI → Suno → Video → YouTube</span>
+  </header>
+
+  <div class="card">
+    <button id="run"><span id="run-label">Generate Today's 2h Piano Video</span></button>
+    <button id="reset" type="button" title="Put every in-progress song back to INIT and clear the run history">Reset pipeline</button>
+    <span id="notice"></span>
+    <div class="progress">
+      <div><span>Step</span><b id="p-step">—</b></div>
+      <div><span>Songs done / total</span><b id="p-songs">0 / 0</b></div>
+      <div><span>Tracks</span><b id="p-tracks">0</b></div>
+      <div><span>Minutes generated</span><b id="p-minutes">0 / 120</b></div>
+    </div>
+    <div class="bar"><i id="p-bar"></i></div>
+  </div>
+
+  <div class="card">
+    <h2>Run log</h2>
+    <div id="log"></div>
+  </div>
+
+  <div class="card">
+    <h2>Last run</h2>
+    <dl>
+      <dt>Date</dt><dd id="r-date">—</dd>
+      <dt>Status</dt><dd id="r-status">—</dd>
+      <dt>Tracks</dt><dd id="r-tracks">—</dd>
+      <dt>Duration</dt><dd id="r-duration">—</dd>
+      <dt>Merged file</dt><dd id="r-file">—</dd>
+      <dt>YouTube</dt><dd id="r-url">—</dd>
+      <dt>Error</dt><dd id="r-error">—</dd>
+    </dl>
+  </div>
+
+  <div class="card">
+    <h2>Song statuses</h2>
+    <div class="counts" id="counts"></div>
+  </div>
+</div>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const logPanel = $('log');
+  const runButton = $('run');
+  const resetButton = $('reset');
+  const LAST_RUN_FIELDS = ['r-date', 'r-status', 'r-tracks', 'r-duration', 'r-file', 'r-url', 'r-error'];
+  let busy = false;
+  let resetting = false;
+
+  function appendLog(line) {
+    const atBottom = logPanel.scrollHeight - logPanel.scrollTop - logPanel.clientHeight < 40;
+    const row = document.createElement('div');
+    row.className = line.level;
+    const time = new Date(line.ts).toLocaleTimeString();
+    row.innerHTML =
+      '<span class="ts">' + time + '</span> ' +
+      '<span class="step">[' + line.step + ']</span> ' +
+      line.message.replace(/[<>&]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c]));
+    logPanel.appendChild(row);
+    while (logPanel.childElementCount > 1200) logPanel.removeChild(logPanel.firstChild);
+    if (atBottom) logPanel.scrollTop = logPanel.scrollHeight;
+  }
+
+  function setBusy(running, step) {
+    busy = running;
+    runButton.disabled = running;
+    // The 2s poll calls setBusy, so an in-flight reset has to be respected here too.
+    resetButton.disabled = running || resetting;
+    $('run-label').textContent = running ? 'Running… ' + (step || '') : "Generate Today's 2h Piano Video";
+    const existing = runButton.querySelector('.spinner');
+    if (running && !existing) runButton.prepend(Object.assign(document.createElement('span'), { className: 'spinner' }));
+    if (!running && existing) existing.remove();
+  }
+
+  function formatDuration(seconds) {
+    if (!seconds) return '—';
+    const h = Math.floor(seconds / 3600), m = Math.round((seconds % 3600) / 60);
+    return h > 0 ? h + 'h ' + m + 'm' : m + 'm';
+  }
+
+  async function refreshStatus() {
+    try {
+      const data = await (await fetch('/api/pipeline/status')).json();
+      const p = data.progress, run = data.run;
+
+      setBusy(data.running, p.step);
+      $('p-step').textContent = p.step || '—';
+      $('p-songs').textContent = p.songsDone + ' / ' + p.songsSelected;
+      $('p-tracks').textContent = p.tracksGenerated;
+      $('p-minutes').textContent = p.minutesGenerated.toFixed(1) + ' / ' + p.targetMinutes;
+      $('p-bar').style.width = Math.min(100, (p.minutesGenerated / p.targetMinutes) * 100) + '%';
+
+      if (run) {
+        $('r-date').textContent = run.run_date + (run.created_at ? ' · ' + new Date(run.created_at).toLocaleTimeString() : '');
+        $('r-status').innerHTML = '<span class="pill ' + run.status + '">' + run.status + '</span>' +
+          (run.current_step ? ' <span class="sub">at ' + run.current_step + '</span>' : '');
+        $('r-tracks').textContent = run.tracks_generated || 0;
+        $('r-duration').textContent = formatDuration(run.total_duration_sec);
+        $('r-file').textContent = run.merged_video_path || '—';
+        $('r-url').innerHTML = run.youtube_url
+          ? '<a href="' + run.youtube_url + '" target="_blank" rel="noreferrer">' + run.youtube_url + '</a>'
+          : '—';
+        $('r-error').textContent = run.error || '—';
+      }
+
+      const counts = $('counts');
+      counts.innerHTML = '';
+      for (const [status, n] of Object.entries(data.songStatusCounts)) {
+        const chip = document.createElement('span');
+        chip.textContent = status + ': ' + n;
+        counts.appendChild(chip);
+      }
+    } catch (error) {
+      // The server may be restarting; the next poll picks it back up.
+    }
+  }
+
+  runButton.addEventListener('click', async () => {
+    if (busy) return;
+    $('notice').textContent = '';
+    setBusy(true, 'STEP0');
+    try {
+      const response = await fetch('/api/pipeline/run', { method: 'POST' });
+      const body = await response.json();
+      if (response.status === 409) $('notice').textContent = body.message || 'Pipeline is already running';
+      else if (!response.ok) $('notice').textContent = body.message || 'Could not start the run';
+    } catch (error) {
+      $('notice').textContent = String(error);
+    }
+    refreshStatus();
+  });
+
+  // refreshStatus only writes the last-run card inside `if (run)`, so once the run rows
+  // are deleted the old values would linger. Clear them here instead.
+  function clearLastRun() {
+    for (const id of LAST_RUN_FIELDS) $(id).textContent = '\u2014';
+  }
+
+  resetButton.addEventListener('click', async () => {
+    if (busy || resetting) return;
+    const confirmed = confirm(
+      'Reset the pipeline back to the start?\n\n' +
+      'Songs still in progress (PROMPTED / GENERATED / CONVERTED / ERROR) go back to INIT and lose ' +
+      'their generated prompts, audio and video. The run history is cleared, so the next click starts at STEP1.\n\n' +
+      'Songs already DONE are kept, and files already written to the output folder are not deleted.'
+    );
+    if (!confirmed) return;
+
+    $('notice').textContent = '';
+    resetting = true;
+    resetButton.disabled = true;
+    try {
+      const response = await fetch('/api/pipeline/reset', { method: 'POST' });
+      const body = await response.json();
+      if (!response.ok) {
+        $('notice').textContent = body.message || 'Could not reset the pipeline';
+      } else {
+        clearLastRun();
+        $('notice').textContent =
+          'Reset: ' + body.songsReset + ' song(s) back to INIT, ' + body.runsCleared + ' run record(s) cleared';
+      }
+    } catch (error) {
+      $('notice').textContent = String(error);
+    }
+    resetting = false;
+    resetButton.disabled = busy;
+    refreshStatus();
+  });
+
+  const stream = new EventSource('/api/pipeline/logs');
+  stream.onmessage = (event) => appendLog(JSON.parse(event.data));
+
+  refreshStatus();
+  setInterval(refreshStatus, 2000);
+</script>
+</body>
+</html>

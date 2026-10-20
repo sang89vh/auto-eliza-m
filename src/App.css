@@ -1,0 +1,291 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.song-container {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.next-button-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  min-height: 40px;
+  padding-right: 140px;
+  margin-top: 60px;
+}
+
+.style-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  height: 150px;
+  padding-right: 140px;
+  padding-top: 40px;
+  font-size: 11px;
+}
+
+.lyrics-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  min-height: 40px;
+  padding-right: 140px;
+}
+
+.lyrics-header h3 {
+  margin: 0;
+}
+
+h2 {
+  color: #333;
+  margin: 0;
+  flex-grow: 1;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.copy-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+  position: absolute;
+  right: 0;
+}
+
+.copy-button:not(.style-copy) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.copy-button.style-copy {
+  top: 0;
+  right: 0;
+  transform: none;
+}
+
+.copy-button:hover {
+  background-color: #218838;
+}
+
+.copy-success {
+  color: #28a745;
+  font-size: 14px;
+  animation: fadeOut 2s forwards;
+  white-space: nowrap;
+  position: absolute;
+  right: 120px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.copy-success.style-copy-success {
+  top: 0;
+  right: 120px;
+  transform: none;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.original-title {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.style {
+  color: #888;
+  margin: 0;
+  flex-grow: 1;
+  margin-top: 40px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.lyrics {
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.lyrics pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  line-height: 1.5;
+  margin: 0;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.next-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 120px;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.error {
+  color: #dc3545;
+  text-align: center;
+  padding: 20px;
+}
+
+.no-songs {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.intro-section {
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.intro-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  min-height: 40px;
+  padding-right: 140px;
+}
+
+.intro-header h3 {
+  margin: 0;
+}
+
+.intro-content {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  line-height: 1.5;
+  margin: 0;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.create-video-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 120px;
+}
+
+.create-video-button:hover {
+  background-color: #218838;
+}
+
+.video-status {
+  color: #28a745;
+  font-size: 14px;
+  animation: fadeOut 3s forwards;
+  white-space: nowrap;
+}
+
+.status-counts {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.counts-container h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.counts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.count-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.count-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.count-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+} 
